@@ -1,12 +1,22 @@
 <html>
 
 <head>
-    <title>Choose your adventure</title>
+    <title>Choose Your Adventure</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body style="background-color:lightblue;">
-    <h1 style="font-family:arial;color:navy;font-size:20px;">Press Start</h1>
-    <p> <a href="choice1.html">"Link to game"</a> </p>
+   <div id="gamewindow">
+   <div id="starttext" align="center">
+       Press Start To Begin
+   </div>
+   
+    <form>
+    <input type="button" value="Choice 1" onclick="window.location.href='choice1.html'" />
+    </form>
+    <br>
+    <img id="start-img" src="http://cdn.computerhope.com/computer-hope.jpg"  alt="Computer Hope">
+    </div>
 </body>
 
 </html>
