@@ -1,18 +1,43 @@
-#gamewindow {
-    height: 50%; 
+.gamewindow {
+    height: 55%; 
     width: 400px;
     margin-right: auto;
     margin-left: auto;
     background-color: white;
 }
-
+.textchoices {
+    background-color: mediumaquamarine;
+}
 #starttext {
     font-family: cursive;
     font-weight: 900;
     font-size: 45px;
     color: black;
 }
+#choosetext {
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
 /*Positions of Art. */
+
+.button {
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    margin: -20px -50px; 
+    position:relative;
+    top:50%;
+    left:50%;
+    align-items: center;
+}
+.pictures {
+    position: absolute;
+    height: 300px;
+    width: 400px;
+}
 
 .left {
     position:absolute;
