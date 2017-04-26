@@ -1,5 +1,7 @@
-var places = ['emptybeach.html', 'beachwithfpole.html'];
+var urls = ["emptybeach.html","beachwithfpole.html"];
+
 function randomWalk() {
-    var r = Math.floor(Math.random(0,places.length));
-    goto (places[r]);
+    var url = urls[Math.floor(Math.random()*urls.length)];
+    console.log(url);
+    window.location = url; 
 }
